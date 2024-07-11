@@ -28,6 +28,10 @@ function Menunav() {
     i18n.changeLanguage(lng);
   };
 
+  const handleCall = () => {
+    window.location.href = "tel 0507111669";
+  };
+
   return (
     <div className="menunav">
       <div className="menunav__content">
@@ -56,7 +60,7 @@ function Menunav() {
               Address
             </li>
           </Link>
-          <li>
+          <li onClick={() => handleCall()}>
             <MdOutlinePhoneInTalk />
             <h3>Консультация</h3>
           </li>
