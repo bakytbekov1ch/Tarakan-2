@@ -65,8 +65,8 @@ function Header() {
 
               <div className="header__mesto">
                 <LuPhoneCall className="header__phone" />
-                <div className="header__text2">
-                  <h3 onClick={() => handleCall()}>+996 507 111 669</h3>
+                <div className="header__text2" onClick={() => handleCall()}>
+                  <h3>+996 507 111 669</h3>
                   <span>консультация</span>
                 </div>
               </div>
