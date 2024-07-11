@@ -12,7 +12,7 @@ import "./Header.scss";
 import { Link } from "react-router-dom";
 import Login from "../Auth/Login/Login";
 import MenuBtn from "../Menu/Menu";
-import Menunav from "../MenuNav/Menunav"
+import Menunav from "../MenuNav/Menunav";
 
 function Header() {
   const [popup, setPopup] = useState();
@@ -22,6 +22,10 @@ function Header() {
 
   const handleChangeLangoage = (lng) => {
     i18n.changeLanguage(lng);
+  };
+
+  const handleCall = () => {
+    window.location.href = "tel +996507111669";
   };
 
   return (
@@ -62,7 +66,7 @@ function Header() {
               <div className="header__mesto">
                 <LuPhoneCall className="header__phone" />
                 <div className="header__text2">
-                  <h3>+996 507 111 669</h3>
+                  <h3 onClick={() => handleCall()}>+996 507 111 669</h3>
                   <span>консультация</span>
                 </div>
               </div>
