@@ -60,10 +60,13 @@ function Menunav() {
               Address
             </li>
           </Link>
-          <li onClick={() => handleCall()}>
-            <MdOutlinePhoneInTalk />
-            <h3>Консультация</h3>
-          </li>
+          <a href="tel:+996507111669">
+            <li>
+              <MdOutlinePhoneInTalk />
+              <h3>Консультация</h3>
+            </li>
+          </a>
+
           <li className="menunav__translation">
             <MdOutlineGTranslate />
             <select onClick={(e) => changeClick(e.target.value)} name="#" id="">
