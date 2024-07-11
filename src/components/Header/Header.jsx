@@ -29,7 +29,7 @@ function Header() {
       <div className="headerBlock">
         <div className="container">
           <div className="header__content">
-            <Link to="/register">
+            <Link to="/">
               <div className="header__logo">
                 <img src={logo} alt="" />
                 <h1>Tarakan.kg</h1>
