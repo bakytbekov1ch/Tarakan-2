@@ -1,0 +1,169 @@
+@import "../../mixin/mixin";
+
+.header {
+  .headerBlock {
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.366);
+    padding: 10px 0;
+    position: fixed;
+
+    .header__content {
+      width: 100%;
+      @include flexbox(space-between, center);
+
+      .header__logo {
+        cursor: pointer;
+        @include flexbox(start, center);
+        gap: 5px;
+
+        img {
+          width: 55px;
+          height: 55px;
+        }
+
+        h1 {
+          z-index: 99;
+
+          margin: 0;
+          color: black;
+          font-size: 45px;
+          font-weight: 700;
+          font-family: "Wittgenstein";
+        }
+      }
+
+      .header__nav {
+        ul {
+          z-index: 999;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          li {
+            margin: 0;
+            color: black;
+            font-size: 20px;
+            font-family: "inter";
+            font-weight: 700;
+            letter-spacing: 0.9px;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .header__address {
+        width: 370px;
+        position: relative;
+        @include flexbox(space-between, center);
+
+        .header__mesto {
+          width: 180px;
+          height: 40px;
+          border: 1px solid black;
+          background-color: none;
+          border-radius: 50px;
+          padding: 0 15px 0 5px;
+
+          cursor: pointer;
+          z-index: 99;
+
+          @include flexbox(space-between, center);
+
+          .header__icon {
+            font-size: 28px;
+          }
+
+          .header__phone {
+            font-size: 25px;
+            padding-left: 4px;
+          }
+
+          .header__text {
+            h3 {
+              margin: 0;
+              color: black;
+              font-size: 15px;
+              font-weight: 600;
+              font-family: "inter";
+              letter-spacing: 0.8px;
+            }
+
+            span {
+              margin: 0;
+              color: black;
+              font-size: 10px;
+              font-weight: 500;
+              font-family: "inter";
+            }
+          }
+
+          .header__text2 {
+            h3 {
+              margin: 0;
+              color: black;
+              font-size: 13px;
+              font-weight: 700;
+              font-family: "inter";
+              letter-spacing: 0.8px;
+            }
+
+            span {
+              margin: 0;
+              color: black;
+              font-size: 12px;
+              font-weight: 500;
+              font-family: "inter";
+            }
+          }
+        }
+      }
+
+      .header__menu {
+        font-size: 30px;
+        display: none;
+      }
+
+      .header__menu2 {
+        font-size: 30px;
+        display: none;
+      }
+
+      .header__i18 {
+        width: 140px;
+        position: absolute;
+        right: 20px;
+        top: 110%;
+        @include flexbox(space-between, center);
+
+        h4 {
+          margin: 0;
+          color: black;
+          font-size: 15px;
+          font-weight: 600;
+          font-family: "inter";
+          cursor: pointer;
+          border: 1px solid black;
+          padding: 5px;
+          border-radius: 5px;
+          background: white;
+        }
+      }
+    }
+  }
+
+  .header__login {
+    background: rgba(0, 0, 0, 0.364);
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .menu__popup {
+    width: 100%;
+    position: absolute;
+  }
+}

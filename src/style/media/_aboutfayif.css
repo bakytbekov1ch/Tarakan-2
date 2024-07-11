@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .AboutFayif__block h1 {
+    height: 45px !important;
+  }
+
+  .AboutFayif__block p {
+    font-size: 14px !important;
+    line-height: 23px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .AboutFayif {
+    height: 100%;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .AboutFayif__content {
+    flex-direction: column !important;
+  }
+
+  .AboutFayif__block h1 {
+    height: 45px !important;
+  }
+
+  .AboutFayif__block p {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    height: 190px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .AboutFayif {
+    height: 100%;
+  }
+
+  .container {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .AboutFayif__content {
+    flex-direction: column !important;
+  }
+
+  .AboutFayif__block {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .AboutFayif__block h1 {
+    font-size: 22px !important;
+    height: 40px !important;
+    text-align: center !important;
+  }
+
+  .AboutFayif__block p {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    height: 100% !important;
+  }
+
+  .AboutFayif__block h3 {
+    padding-top: 20px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .AboutFayif {
+    height: 100%;
+  }
+
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .AboutFayif__content {
+    flex-direction: column !important;
+  }
+
+  .AboutFayif__block {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .AboutFayif__block h1 {
+    font-size: 22px !important;
+    height: 40px !important;
+    text-align: center !important;
+  }
+
+  .AboutFayif__block p {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    height: 100% !important;
+    text-align: center !important;
+  }
+
+  .AboutFayif__block h3 {
+    padding-top: 20px !important;
+    text-align: center !important;
+    line-height: 20px !important;
+  }
+}

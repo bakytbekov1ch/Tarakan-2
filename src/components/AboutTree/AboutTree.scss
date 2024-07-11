@@ -1,0 +1,61 @@
+@import "../../mixin/mixin";
+
+.AboutTree {
+  height: 580px;
+  background: #7bbd2b;
+
+  .AboutTree__content {
+    h4 {
+      margin: 0;
+      height: 160px;
+      color: white;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: "inter";
+      text-align: center;
+      padding-top: 50px;
+
+      span {
+        color: red;
+        font-size: 35px;
+      }
+    }
+
+    .abouttree__mocapi {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: start;
+
+      .abouttree__block {
+        width: 250px;
+        @include flexbox(center);
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+
+        img {
+          width: 120px;
+          height: 120px;
+        }
+
+        h2 {
+          margin: 0;
+          color: white;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: "inter";
+        }
+
+        p {
+          margin: 0;
+          color: white;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 25px;
+          letter-spacing: 1px;
+          font-family: "inter";
+        }
+      }
+    }
+  }
+}

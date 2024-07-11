@@ -1,0 +1,26 @@
+@import "../../mixin/mixin";
+
+.AboutFooter {
+  .AboutFooter__content {
+    height: 200px;
+    @include flexbox(center);
+
+    P {
+      margin: 0;
+      width: 700px;
+      color: black;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-family: "inter";
+      text-align: center;
+
+      span{
+        color: red;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+}

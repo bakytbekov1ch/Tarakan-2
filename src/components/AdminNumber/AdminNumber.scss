@@ -1,0 +1,51 @@
+@import "../../mixin/mixin";
+
+.AdminNumber {
+  margin-top: 20px;
+
+  .AdminNumber__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    .adminnumber__block {
+      width: 250px;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+      display: grid;
+      grid-gap: 10px;
+
+      h1 {
+        margin: 0;
+        color: red;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: "inter";
+      }
+
+      h2 {
+        margin: 0;
+        color: black;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: "inter";
+      }
+
+      button {
+        width: 100%;
+        height: 20px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .adminnumber__block h2:hover {
+      color: blue;
+    }
+  }
+}

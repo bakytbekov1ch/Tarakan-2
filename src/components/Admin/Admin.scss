@@ -1,0 +1,110 @@
+@import "../../mixin/mixin";
+
+.admin {
+  padding: 120px 0 30px 0;
+
+  .admin__nav {
+    border-bottom: 1px solid black;
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      li {
+        margin: 0;
+        height: 30px;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "inter";
+        letter-spacing: 1px;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+    }
+
+    ul li:hover {
+      color: red;
+      font-weight: 700;
+      transition: all 0.3s;
+    }
+  }
+
+  .admin__content {
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+
+    .admin__block {
+      width: 600px;
+      padding: 30px;
+      background: rgb(230, 230, 230);
+      border-radius: 8px;
+      box-shadow: 0 0 10px;
+
+      h6 {
+        margin: 0;
+        height: 30px;
+        color: black;
+        font-weight: 500;
+        font-family: "inter";
+        opacity: 0.6;
+      }
+
+      h2 {
+        margin: 0;
+        height: 30px;
+        font-size: 20px;
+        color: black;
+        font-weight: 500;
+        font-family: "inter";
+        letter-spacing: 1px;
+      }
+
+      h3 {
+        margin: 0;
+        height: 30px;
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+        font-family: "inter";
+        letter-spacing: 1px;
+      }
+
+      p {
+        margin: 0;
+        width: 100%;
+        color: black;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        font-weight: 400;
+        font-family: "inter";
+      }
+
+      .admin__remove {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background: red;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 1px;
+        cursor: pointer;
+      }
+
+      .admin__success {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background: green;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 1px;
+        cursor: pointer;
+      }
+    }
+  }
+}

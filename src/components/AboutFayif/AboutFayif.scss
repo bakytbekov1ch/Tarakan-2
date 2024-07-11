@@ -1,0 +1,51 @@
+@import "../../mixin/mixin";
+
+.AboutFayif {
+  height: 500px;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+
+  .AboutFayif__content {
+    gap: 50px;
+
+    @include flexbox(space-between, center);
+
+    .AboutFayif__block {
+      width: 580px;
+      height: 330px;
+      padding: 40px;
+      background: white;
+      border-radius: 10px;
+
+      h1 {
+        margin: 0;
+        height: 50px;
+        color: black;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "inter";
+      }
+
+      p {
+        margin: 0;
+        height: 170px;
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 1px;
+        opacity: 0.7;
+        font-family: "inter";
+      }
+
+      h3 {
+        margin: 0;
+        color: black;
+        font-size: 16px;
+        font-weight: 800;
+        font-family: "inter";
+      }
+    }
+  }
+}

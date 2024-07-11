@@ -1,0 +1,135 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .SectionFour__content {
+    justify-content: center !important;
+  }
+
+  .SectionFour__content textarea {
+    width: 600px !important;
+    height: 150px !important;
+  }
+
+  .SectionFour__content input {
+    width: 320px !important;
+    height: 45px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .SectionFour__content {
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+
+  .SectionFour__content textarea {
+    width: 600px !important;
+    height: 150px !important;
+  }
+
+  .SectionFour__content input {
+    width: 600px !important;
+    height: 45px !important;
+  }
+
+  @keyframes name {
+    0% {
+      width: 120px;
+    }
+
+    50% {
+      width: 100%;
+      background: blue;
+    }
+
+    100% {
+      width: 120px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .SectionFour__content {
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding: 0 20px !important;
+  }
+
+  .SectionFour__content textarea {
+    width: 320px !important;
+    height: 150px !important;
+  }
+
+  .SectionFour__content input {
+    width: 320px !important;
+    height: 45px !important;
+  }
+
+  .SectionFour__content button {
+    width: 100% !important;
+    box-shadow: 0 0 10px black;
+  }
+
+  @keyframes name {
+    0% {
+      background: green;
+    }
+
+    25% {
+      background: blue;
+    }
+
+    50% {
+      background-color: greenyellow;
+    }
+
+    75% {
+      background-color: yellowgreen;
+    }
+
+    100% {
+      background-color: yellow;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .SectionFour__content {
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding: 0 20px !important;
+  }
+
+  .SectionFour__content textarea {
+    width: 320px !important;
+    height: 150px !important;
+  }
+
+  .SectionFour__content input {
+    width: 320px !important;
+    height: 45px !important;
+  }
+
+  .SectionFour__content button {
+    width: 100% !important;
+    box-shadow: 0 0 10px black;
+  }
+}
