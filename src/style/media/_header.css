@@ -2,7 +2,6 @@
   .container {
     max-width: 960px;
     margin: 0 auto;
-    border: 1px solid black;
   }
 
   .header__logo img {
@@ -73,7 +72,6 @@
   .container {
     max-width: 720px;
     margin: 0 auto;
-    border: 1px solid black;
   }
 
   .header__content {
@@ -111,7 +109,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .headerBlock {
     background: none !important;
   }
@@ -119,7 +117,6 @@
   .container {
     max-width: 380px;
     margin: 0 auto;
-    border: 1px solid black;
   }
 
   .header__content {
@@ -152,7 +149,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .headerBlock {
     padding-right: 13px !important;
     margin: 0 !important;
@@ -162,7 +159,6 @@
   .container {
     max-width: 320px;
     margin: 0 auto;
-    border: 1px solid black;
   }
 
   .header__content {

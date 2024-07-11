@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container {
     max-width: 380px;
     margin: 0 auto;
@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .AboutOne {
     padding: 50px 0 0 0 !important;
   }
